@@ -1,0 +1,22 @@
+.head {
+    background-color:  #b7001d;
+}
+
+#outer
+{
+    width:100%;
+    text-align: center;
+}
+.inner
+{
+    display: inline-block;
+}
+
+.botonHeader{
+	font-size: 48px;
+	font-family: "Bitter",serif;
+	line-height: 1.8;
+	appearance: none;
+	box-shadow: none;
+	border-radius: 0;
+}
