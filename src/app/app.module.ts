@@ -12,7 +12,7 @@ import { PlatoComponent } from './plato/plato.component';
 import { UsuarioComponent } from './usuario/usuario.component';
 import { CarritoComponent } from './carrito/carrito.component';
 import { FooterComponent } from './footer/footer.component';
-import { ListaPlatosComponent } from './listaPlatos/listaPlatos.component';
+
 
 
 @NgModule(
@@ -24,13 +24,11 @@ import { ListaPlatosComponent } from './listaPlatos/listaPlatos.component';
     PlatoComponent,
     UsuarioComponent,
     CarritoComponent,
-    FooterComponent,
-    ListaPlatosComponent
+    FooterComponent
+
   ],
 
   imports: [
-    BsDropDownModule.forRoot(),
-    CarouselModule.forRoot(),
     BrowserModule,
     FormsModule,
     HttpModule
