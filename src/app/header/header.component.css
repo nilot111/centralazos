@@ -11,12 +11,3 @@
 {
     display: inline-block;
 }
-
-.botonHeader{
-	font-size: 48px;
-	font-family: "Bitter",serif;
-	line-height: 1.8;
-	appearance: none;
-	box-shadow: none;
-	border-radius: 0;
-}
